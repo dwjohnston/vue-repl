@@ -51,7 +51,7 @@ export function useVueImportMap(
       imports: {
         vue,
         'vue/server-renderer': serverRenderer,
-        'sample-vue-library': defaults['sample-vue-library'],
+        mylibrary: defaults['sample-vue-library'],
       },
     }
   })

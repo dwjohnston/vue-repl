@@ -7,7 +7,7 @@ import path from 'path'
 const pkgCssPath = path.resolve(
   process.cwd(),
   'node_modules',
-  'sample-vue-library',
+  'mylibrary',
   'dist',
   'styles.css',
 )

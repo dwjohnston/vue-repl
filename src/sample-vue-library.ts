@@ -1,1 +1,1 @@
-export * from 'sample-vue-library'
+export * from 'mylibrary'
