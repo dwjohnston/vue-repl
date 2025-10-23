@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import { SomeComponent, SomeOtherComponent, Box } from 'sample-vue-library'
+import { SomeComponent, SomeOtherComponent, Box } from 'mylibrary'
 </script>
 
 <template>

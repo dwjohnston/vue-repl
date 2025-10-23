@@ -22,6 +22,7 @@ import { type ImportMap, mergeImportMap, useVueImportMap } from './import-map'
 
 import welcomeSFCCode from './template/welcome.vue?raw'
 import newSFCCode from './template/new-sfc.vue?raw'
+import designSystemTypes from './template/designSystemTypes.ts?raw'
 
 export const importMapFile = 'import-map.json'
 export const tsconfigFile = 'tsconfig.json'
@@ -34,6 +35,7 @@ export function useStore(
     template = ref({
       welcomeSFC: welcomeSFCCode,
       newSFC: newSFCCode,
+      designSystemTypes: designSystemTypes,
     }),
     builtinImportMap = undefined!, // set later
 
@@ -341,6 +343,8 @@ export function useStore(
       mainFile.value,
       template.value.welcomeSFC || welcomeSFCCode,
     )
+
+    setFile(files.value, 'designSystemTypes.ts', designSystemTypes)
   }
 
   if (serializedState) {
