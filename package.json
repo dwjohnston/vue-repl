@@ -120,6 +120,6 @@
     "vue-tsc": "3.0.8"
   },
   "dependencies": {
-    "sample-vue-library": "^0.0.2"
+    "sample-vue-library": "^0.0.4"
   }
 }
