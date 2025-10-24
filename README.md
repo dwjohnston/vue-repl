@@ -15,12 +15,9 @@ At this point you should be able to use your component, but the CSS won't work.
 
 The Playground does some kind of magic where it goes off to jsdelivr to fetch the typings - this is why your package needs to be published publically.
 
-4. Create a script that will get the css from your package, and create a file exporting it as a single string variable.
-   (This should be absolutely fine - [max length of a string variable](https://stackoverflow.com/a/33768639/1068446))
+4. Update the preview template to have this css be inlined style tag.
 
-Update the preview template to have this css be inlined style tag.
-
-https://github.com/dwjohnston/vue-repl/commit/a94c0c5e22623a068b9f5cac6cc532000a55980c
+https://github.com/dwjohnston/vue-repl/commit/6c68ec1b6f228c5ad1aa95545a1d95dc693bd7e3
 
 5. Update your template for ease of use
 
