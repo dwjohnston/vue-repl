@@ -22,7 +22,7 @@ import { type ImportMap, mergeImportMap, useVueImportMap } from './import-map'
 
 import welcomeSFCCode from './template/welcome.vue?raw'
 import newSFCCode from './template/new-sfc.vue?raw'
-import designSystemTypes from './template/designSystemTypes.ts?raw'
+import designSystemTypes from './generated/designSystemTypes.ts?raw'
 
 export const importMapFile = 'import-map.json'
 export const tsconfigFile = 'tsconfig.json'
